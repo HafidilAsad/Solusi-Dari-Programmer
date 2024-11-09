@@ -1,5 +1,6 @@
 import React from "react";
 
+
 export const Navigation = (props) => {
   return (
     <nav id="menu" className="navbar navbar-default navbar-fixed-top">
@@ -18,7 +19,7 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
           </button>
           <a className="navbar-brand page-scroll" href="#page-top">
-            React Landing Page
+            <img src="img/logo.png" width="130" alt="" className="" style={{marginTop: "-10px"}}/>
           </a>{" "}
         </div>
 

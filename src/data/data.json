@@ -1,21 +1,21 @@
 {
   "Header": {
-    "title": "We are a Landing Page",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "title": " Solusion Of Programming",
+    "paragraph": "We specialize in IoT, Robotics, AI, Machine Learning, and Web Development to deliver smart, efficient solutions that help your business thrive in the digital era. Let us help you optimize operations, automate processes, and unlock new opportunities for growth. Together, we’ll shape a smarter, more connected future."
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "Welcome to Solusi Dari Programmer, a leader in cutting-edge technology solutions combining the power of Internet of Things (IoT), Robotics, Artificial Intelligence (AI), Machine Learning, and Web Development. We deliver smart, efficient solutions designed to help your business thrive in the digital age. By leveraging advanced technologies, we create connected systems, automate processes, and offer personalized experiences that drive long-term success. Whether you're looking to optimize operations, innovate new products, or harness data for smarter decision-making, we are here to help. Join us in shaping a smarter, more connected technological future!",
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+      "Comprehensive Expertise",
+      "Cutting-Edge Technology",
+      "Custom Solutions for Your Needs",
+      "Seamless Integration"
     ],
     "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+      "Proven Results",
+      "Scalability",
+      "Agile and Collaborative",
+      "Commitment to Quality"
     ]
   },
   "Gallery": [
@@ -68,33 +68,33 @@
   "Services": [
     {
       "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Web Development",
+      "text": "Our team builds responsive, secure, and scalable websites and web applications that deliver a seamless user experience. We design and develop custom digital platforms."
     },
     {
       "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Internet of Things (IoT) Solutions",
+      "text": " Whether it’s smart sensors, connected products, or end-to-end IoT ecosystems, we provide innovative solutions that enhance efficiency and drive real-time decision-making."
     },
     {
       "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Robotics Engineering",
+      "text": "We offer advanced robotic solutions that automate complex tasks, improve productivity, and enhance operational efficiency. From robotic process automation (RPA) to custom robotic systems"
     },
     {
       "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "AI & Machine Learning",
+      "text": "Unlock the power of AI and machine learning to gain actionable insights from your data. We help businesses automate decision-making, predict trends, and optimize operations using advanced algorithms and machine learning models."
     },
     {
       "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Custom Software Development",
+      "text": "We provide end-to-end custom software development services, from building enterprise applications to developing bespoke solutions. Our agile development approach ensures that the software we create is perfectly "
     },
     {
       "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Automation Solutions",	
+      "text": "From robotic process automation (RPA) to AI-powered automation, we streamline your workflows and reduce operational costs by automating repetitive tasks and optimizing business processes."
     }
   ],
   "Testimonials": [
@@ -132,29 +132,20 @@
   "Team": [
     {
       "img": "img/team/01.jpg",
-      "name": "John Doe",
+      "name": "Agus Faudin",
       "job": "Director"
     },
     {
       "img": "img/team/02.jpg",
-      "name": "Mike Doe",
-      "job": "Senior Designer"
-    },
-    {
-      "img": "img/team/03.jpg",
-      "name": "Jane Doe",
-      "job": "Senior Designer"
-    },
-    {
-      "img": "img/team/04.jpg",
-      "name": "Karen Doe",
-      "job": "Project Manager"
+      "name": "Hafidil Asad",
+      "job": "Deputy Director"
     }
+ 
   ],
   "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+1 123 456 1234",
-    "email": "info@company.com",
+    "address": "Kelapa Gading, Jakarta Utara, Indonesia",
+    "phone": "+62 857 2040 2625",
+    "email": "sdp@company.com",
     "facebook": "fb.com",
     "twitter": "twitter.com",
     "youtube": "youtube.com"
@@ -162,23 +153,23 @@
   "Features": [
     {
       "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Internet Of Things",
+      "text": "Transform your business with connected devices. Our IoT solutions enable seamless communication between smart devices, enhancing efficiency and providing real-time insights to drive smarter decisions."
     },
     {
       "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Web Development",
+      "text": "Build powerful, user-friendly websites and applications with our web development expertise. We create responsive, scalable, and secure digital platforms tailored to your business needs."
     },
     {
       "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Electrical and Robotic",
+      "text": "Revolutionize your operations with cutting-edge robotics and electrical engineering solutions. From automation to advanced robotics systems, we help you streamline processes and boost productivity."
     },
     {
       "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "AI and Machine Learning",
+      "text": "Unlock the power of AI and machine learning to gain valuable insights from your data. Our intelligent solutions help you predict trends, automate tasks, and enhance decision-making for greater business growth."
     }
   ]
 }
