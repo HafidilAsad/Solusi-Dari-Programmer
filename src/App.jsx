@@ -34,6 +34,19 @@ const App = () => {
       <Testimonials data={landingPageData.Testimonials} />
       <Team data={landingPageData.Team} />
       <Contact data={landingPageData.Contact} />
+      
+      {/* WhatsApp Button */}
+      <a
+        href="https://wa.me/6285647156889" // Ganti dengan nomor WhatsApp Anda
+        className="whatsapp-button"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" // URL gambar ikon WhatsApp
+          alt="WhatsApp"
+        />
+      </a>
     </div>
   );
 };
