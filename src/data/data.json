@@ -20,49 +20,49 @@
   },
   "Gallery": [
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/01-large.jpg",
-      "smallImage": "img/portfolio/01-small.jpg"
+      "title": "Monitoring & Coontrolling Dashboard",
+      "largeImage": "img/portofolio/01-large.webp",
+      "smallImage": "img/portfolio/01-large.webp"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/02-large.jpg",
-      "smallImage": "img/portfolio/02-small.jpg"
+      "title": "Smart Parking LPR AI",
+      "largeImage": "img/portfolio/02-large.webp",
+      "smallImage": "img/portfolio/02-large.webp"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/03-large.jpg",
-      "smallImage": "img/portfolio/03-small.jpg"
+      "title": "Smart Office",
+      "largeImage": "img/portfolio/03-large.webp",
+      "smallImage": "img/portfolio/03-large.webp"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/04-large.jpg",
-      "smallImage": "img/portfolio/04-small.jpg"
+      "title": "Water Treatment Plant",
+      "largeImage": "img/portfolio/04-large.webp",
+      "smallImage": "img/portfolio/04-large.webp"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/05-large.jpg",
-      "smallImage": "img/portfolio/05-small.jpg"
+      "title": "Smart Home Via Tuya",
+      "largeImage": "img/portfolio/05-large.webp",
+      "smallImage": "img/portfolio/05-large.webp"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/06-large.jpg",
-      "smallImage": "img/portfolio/06-small.jpg"
+      "title": "Interlocking Project in Some Company",
+      "largeImage": "img/portfolio/06-large.webp",
+      "smallImage": "img/portfolio/06-large.webp"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/07-large.jpg",
-      "smallImage": "img/portfolio/07-small.jpg"
+      "title": "PLC & Robotic Programming",
+      "largeImage": "img/portfolio/07-large.webp",
+      "smallImage": "img/portfolio/07-large.webp"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/08-large.jpg",
-      "smallImage": "img/portfolio/08-small.jpg"
+      "title": "Building Management System",
+      "largeImage": "img/portfolio/08-large.webp",
+      "smallImage": "img/portfolio/08-large.webp"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/09-large.jpg",
-      "smallImage": "img/portfolio/09-small.jpg"
+      "title": "Panel Installateion",
+      "largeImage": "img/portfolio/09-large.webp",
+      "smallImage": "img/portfolio/09-large.webp"
     }
   ],
   "Services": [
