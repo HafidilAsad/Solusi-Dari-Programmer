@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://solusiprogrammer.my.id/sitemap.xml

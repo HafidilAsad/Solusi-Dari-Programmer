@@ -1,8 +1,24 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 
 export const About = (props) => {
   return (
     <div id="about">
+      <Helmet>
+        <title>{props.data ? props.data.title : "PT SOLUSI DARI PROGRAMMER"}</title>
+        <meta
+          name="description"
+          content={
+            props.data
+              ? props.data.description
+              : "Loading..."
+          }
+        />
+        <meta
+          name="keywords"
+          content="IoT, Robotics, AI, Machine Learning, Web Development, RS485 Converter, Modbus Tcp, Profibus, Profinet, Interlock, Mqtt Data, PLC, SCADA, Panel Robot, Sistem Integrasi, Building Management System"
+        />
+      </Helmet>
       <div className="container">
         <div className="row">
           <div className="col-xs-12 col-md-6">
