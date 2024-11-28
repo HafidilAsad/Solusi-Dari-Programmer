@@ -1,10 +1,10 @@
 {
   "Header": {
     "title": "PT SOLUSI DARI PROGRAMMER",
-    "paragraph": "We specialize in IoT, Robotics, AI, Machine Learning, and Web Development to deliver smart, efficient solutions that help your business thrive in the digital era. Let us help you optimize operations, automate processes, and unlock new opportunities for growth. Together, we’ll shape a smarter, more connected future."
+    "paragraph": " Di era digital yang terus berkembang, kami hadir sebagai mitra terpercaya Anda dalam mengintegrasikan teknologi mutakhir dengan kebutuhan bisnis Anda. Dengan pengalaman lebih dari satu dekade, kami mengoptimalkan operasi produksi, mengotomatisasi proses, dan membuka peluang baru untuk pertumbuhan bersama.Bersama-sama, mari kita bentuk masa depan yang cerdas dan solutif!"
   },
   "About": {
-    "paragraph": "Welcome to Solusi Dari Programmer, a leader in cutting-edge technology solutions combining the power of Internet of Things (IoT), Robotics, Artificial Intelligence (AI), Machine Learning, and Web Development. We deliver smart, efficient solutions designed to help your business thrive in the digital age. By leveraging advanced technologies, we create connected systems, automate processes, and offer personalized experiences that drive long-term success. Whether you're looking to optimize operations, innovate new products, or harness data for smarter decision-making, we are here to help. Join us in shaping a smarter, more connected technological future!",
+    "paragraph": "Di era digital yang terus berkembang, Solusi Programmer hadir sebagai mitra terpercaya dalam menyediakan solusi teknologi yang terintegrasi. Dengan pengalaman lebih dari 10 tahun, kami fokus membantu bisnis untuk mengoptimalkan operasi, meningkatkan efisiensi, dan memanfaatkan teknologi mutakhir seperti IoT, robotic industrial, paneling & wiring, hingga pengembangan web dan digitalisasi.",
     "Why": [
       "Comprehensive Expertise",
       "Cutting-Edge Technology",
@@ -145,7 +145,7 @@
   "Contact": {
     "address": "Kelapa Gading, Jakarta Utara, Indonesia",
     "phone": "+62 857 2040 2625",
-    "email": "sdp@company.com",
+    "email": "solusidariprogrammer@gmail.com",
     "facebook": "fb.com",
     "twitter": "twitter.com",
     "youtube": "youtube.com"
@@ -153,23 +153,23 @@
   "Features": [
     {
       "icon": "fa fa-comments-o",
-      "title": "Internet Of Things",
-      "text": "Transform your business with connected devices. Our IoT solutions enable seamless communication between smart devices, enhancing efficiency and providing real-time insights to drive smarter decisions."
+      "title": "Paneling dan Wiring",
+      "text": "Kami menyediakan layanan profesional untuk pembuatan panel listrik seperti SDB, MDB, dan panel kontrol, serta wiring dengan standar keamanan dan kualitas terbaik. Solusi kami dirancang untuk kebutuhan industri Anda."
     },
     {
       "icon": "fa fa-bullhorn",
-      "title": "Web Development",
-      "text": "Build powerful, user-friendly websites and applications with our web development expertise. We create responsive, scalable, and secure digital platforms tailored to your business needs."
+      "title": "Internet of Things",
+      "text": "Ubah bisnis Anda dengan perangkat terhubung. Solusi IoT kami memungkinkan komunikasi yang lancar antara perangkat pintar, meningkatkan efisiensi, dan memberikan wawasan waktu nyata untuk pengambilan keputusan yang lebih cerdas."
     },
     {
       "icon": "fa fa-group",
-      "title": "Electrical and Robotic",
-      "text": "Revolutionize your operations with cutting-edge robotics and electrical engineering solutions. From automation to advanced robotics systems, we help you streamline processes and boost productivity."
+      "title": "Robotic Industrial",
+      "text": "Optimalkan operasional Anda dengan solusi integrasi proses dan sistem robotik industri. Dari otomatisasi hingga teknologi robotik mutakhir, kami membantu Anda meningkatkan produktivitas"
     },
     {
       "icon": "fa fa-magic",
-      "title": "AI and Machine Learning",
-      "text": "Unlock the power of AI and machine learning to gain valuable insights from your data. Our intelligent solutions help you predict trends, automate tasks, and enhance decision-making for greater business growth."
+      "title": "Web Development",
+      "text": "Bangun website dan aplikasi yang tangguh dan ramah pengguna dengan keahlian kami. Kami menciptakan platform digital yang responsif, scalable, dan aman, sesuai dengan kebutuhan bisnis Anda.."
     }
   ]
 }

@@ -23,12 +23,13 @@ export const Header = (props) => {
         <div className="overlay">
           <div className="container">
             <div className="row">
-              <div className="col-md-8 col-md-offset-2 intro-text">
+              <div className="col-md-8 col-md-offset-2 intro-text ">
                 <h2>
                   {props.data ? props.data.title : "Loading"}
                   <span></span>
                 </h2>
-                <p>{props.data ? props.data.paragraph : "Loading"}</p>
+                <p style={{ color: "black" }}>Mewujudkan Solusi Cerdas untuk Masa Depan Bisnis Anda</p>
+                <p className="" style={{ color: "black" }}>{props.data ? props.data.paragraph : "Loading"}</p>
                 <a
                   href="#features"
                   className="btn btn-custom btn-lg page-scroll"
