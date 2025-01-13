@@ -2,7 +2,7 @@ const { SitemapStream, streamToPromise } = require('sitemap');
 const fs = require('fs');
 
 const generateSitemap = async () => {
-  const sitemap = new SitemapStream({ hostname: 'https://solusiprogrammer.my.id/' });
+  const sitemap = new SitemapStream({ hostname: 'https://solusiprogrammer.com/' });
 
   // Tambahkan URL halaman ke sitemap
   sitemap.write({ url: '/', changefreq: 'daily', priority: 1.0 });
