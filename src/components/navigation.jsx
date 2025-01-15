@@ -68,11 +68,11 @@ export const Navigation = (props) => {
                 Live Demo 1
               </a>
             </li>
-            <li>
+            {/* <li>
               <a href="/demo/dashboard" className="page-scroll">
                 Live Demo 2
               </a>
-            </li>
+            </li> */}
           
           </ul>
         </div>
