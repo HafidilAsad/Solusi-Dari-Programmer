@@ -14,7 +14,7 @@ export const Testimonials = (props) => {
                   <div className="testimonial">
                     <div className="testimonial-image">
                       {" "}
-                      <img src={d.img} alt="" />{" "}
+                      <img src={d.img} alt="BMS, IoT, Automation Building Management System, BAS, Sistem Integrasi, Building Automation System" />{" "}
                     </div>
                     <div className="testimonial-content">
                       <p>"{d.text}"</p>

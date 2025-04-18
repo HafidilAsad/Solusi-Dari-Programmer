@@ -19,7 +19,7 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
           </button>
           <a className="navbar-brand page-scroll" href="#page-top">
-            <img src="img/logo.png" width="130" alt="" className="" style={{marginTop: "-10px"}}/>
+            <img src="img/logo.png" width="130" alt="BMS, IoT, Automation Building Management System, BAS, Sistem Integrasi, Building Automation System" className="" style={{marginTop: "-10px"}}/>
           </a>{" "}
         </div>
 
@@ -68,8 +68,8 @@ export const Navigation = (props) => {
                 Live Demo 1
               </a>
             </li>
-            <li>
-              <a href="https://demo1.solusiprogrammer.com/v2/dashboard" className="page-scroll">
+            <li className="text-danger">
+              <a href="https://demo1.solusiprogrammer.com/v2/dashboard" className="page-scroll text-danger" style={{fontWeight: "bold", color: "red"}}>
                 Live Demo 2
               </a>
             </li>
