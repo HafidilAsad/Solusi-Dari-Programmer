@@ -206,7 +206,7 @@ a:focus,
 /* Header Section */
 .intro {
   display: table;
-  width: 110%;
+  width: 100%;
   padding: 0;
   background: url(../img/background_web.webp) center no-repeat;
   background-color: #e5e5e5;
@@ -220,6 +220,7 @@ a:focus,
   .intro {
     background-position: center ;
     background-size: contain;
+    width: 110%;
   }
 }
 
@@ -642,4 +643,50 @@ label {
   #about img {
     margin: 50px 0;
   }
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+  background-color: #fff;
+  transition: transform 0.2s ease-in-out;
+  cursor: pointer;
+  text-align: center;
+  min-height: 350px;
+  max-height: 400px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease-in-out;
+  background-color: #f8f8f8;
+  border-bottom:10px solid #95ade1;
+  border-radius: 8px;
+}
+
+.card-img-top {
+  width: 300px;
+  height: 200px;
+  /* object-fit: cover; */
+  margin: 10px;
+}
+
+.card-body {
+  padding: 15px;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 5px;
 }

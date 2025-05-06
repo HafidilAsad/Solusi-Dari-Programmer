@@ -29,23 +29,28 @@ export const Gallery = (props) => {
           </p>
         </div>
         <div className="row">
-          <div className="portfolio-items">
             {props.data
-              ? props.data.map((d, i) => (
+              ? props.data.map((item, index) => (
                   <div
-                    key={`${d.title}-${i}`}
-                    className="col-sm-6 col-md-4 col-lg-4"
+                    key={index}
+                    className="col-lg-4 col-md-4 col-sm-6 col-xs-12 "
                   >
-                    <Image
-                      title={d.title}
-                      largeImage={d.largeImage}
-                      smallImage={d.smallImage}
-                    />
+                    <div className="card shadow-sm">
+                      <img
+                        src={item.smallImage}
+                        alt={item.title}
+                        className="card-img-top"
+                      />
+                      <div className="card-body">
+                        <h5 className="card-title">{item.title}</h5>
+                        <p className="card-text">{item.description}</p>
+                      </div>
+                    </div>
                   </div>
                 ))
               : "Loading..."}
           </div>
-        </div>
+   
       </div>
     </div>
   );
