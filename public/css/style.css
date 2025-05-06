@@ -206,14 +206,53 @@ a:focus,
 /* Header Section */
 .intro {
   display: table;
-  width: 100%;
+  width: 110%;
   padding: 0;
-  background: url(../img/background_web.webp)  center no-repeat;
+  background: url(../img/background_web.webp) center no-repeat;
   background-color: #e5e5e5;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+}
+
+@media (max-width: 768px) {
+  .intro {
+    background-position: center ;
+    background-size: contain;
+  }
+}
+
+@media (max-width: 768px) {
+  .intro h1 {
+    font-family: "Raleway", sans-serif !important;
+    /* color: #fff !important; */
+    font-size: 12px !important;
+    text-transform: uppercase !important;
+    margin-top: 10 !important;
+    margin-bottom: 10px !important;
+  }
+  .intro h1 span {
+    font-weight: 10 !important;
+    color: #5ca9fb !important;
+  }
+  .intro p {
+    /* color: #fff !important; */
+    font-size: 12px !important;
+    font-weight: 31 !important;
+    line-height: 33px !important;
+    margin: 0 auto !important;
+    margin-bottom: 10px !important;
+  }
+  header .intro-text {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    text-align: center !important;
+  }
+
+  .intro-text {
+    font-size: 12px !important;
+  }
 }
 .intro .overlay {
   background: rgba(0, 0, 0, 0.2);

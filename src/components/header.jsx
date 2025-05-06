@@ -23,7 +23,7 @@ export const Header = (props) => {
         <div className="overlay">
           <div className="container">
             <div className="row">
-              <div className="col-md-8 col-md-offset-2 intro-text d-none ">
+              <div className="col-md-8 col-md-offset-2 intro-text d-none  col-sm-offset-0">
                 <h2>
                   {/* {props.data ? props.data.title : "Loading"} */}
                   <span></span>
