@@ -690,3 +690,73 @@ label {
   color: #555;
   margin-bottom: 5px;
 }
+
+.partner-text {
+  text-align: center;
+  position: absolute;
+  bottom: 75px;
+  left: 0;
+  right: 0;
+  font-style: italic;
+  font-size: 24px;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  line-height: 1.3;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 20px;
+}
+
+/* Responsif untuk perangkat seluler */
+@media (max-width: 768px) {
+  .partner-text {
+    font-size: 10px;
+    bottom: 10px;
+  }
+}
+
+
+.date-time-container {
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #fff;
+  font-family: "Segoe UI", sans-serif;
+  font-weight: 300;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  line-height: 1.4;
+}
+
+.date-time-container .date {
+  font-size: 50px;
+}
+
+.date-time-container .month-year {
+  font-size: 25px;
+}
+
+.date-time-container .time {
+  font-size: 20px;
+}
+
+/* Responsif untuk perangkat seluler */
+@media (max-width: 768px) {
+  .date-time-container .date {
+    font-size: 30px;
+  }
+
+  .date-time-container .month-year {
+    font-size: 18px;
+  }
+
+  .date-time-container .time {
+    font-size: 10px;
+  }
+}

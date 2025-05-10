@@ -31,39 +31,23 @@ export const Header = (props) => {
       <div className="intro" style={{ position: 'relative' }}>
 
         {/* Tanggal dan waktu*/}
-        <div
-          style={{
-            position: "absolute",
-            left: "20px",
-            top: "50%",
-            transform: "translateY(-50%)",
-            color: "#fff",
-            fontFamily: "Segoe UI, sans-serif",
-            fontWeight: 300,
-            display: "flex",
-            flexDirection: "column",
-            alignItems: "center", // pusat horizontal
-            textAlign: "center",  // pusat isi teks
-            lineHeight: "1.4"
-          }}
-        >
-          <div style={{ fontSize: "50px" }}>
-            {currentTime.getDate()}
-          </div>
-          <div style={{ fontSize: "25px" }}>
-            {currentTime.toLocaleString("en-GB", {
-              month: "short",
-              year: "numeric",
-            })}
-          </div>
-          <div style={{ fontSize: "20px" }}>
-            {currentTime.toLocaleTimeString("id-ID", {
-              hour: "2-digit",
-              minute: "2-digit",
-              hour12: false,
-            })} Wib
-          </div>
+      <div className="date-time-container">
+        <div className="date">{currentTime.getDate()}</div>
+        <div className="month-year">
+          {currentTime.toLocaleString("en-GB", {
+            month: "short",
+            year: "numeric",
+          })}
         </div>
+        <div className="time">
+          {currentTime.toLocaleTimeString("id-ID", {
+            hour: "2-digit",
+            minute: "2-digit",
+            hour12: false,
+          })}{" "}
+          Wib
+        </div>
+      </div>
 
 
         {/* Overlay */}
@@ -79,24 +63,7 @@ export const Header = (props) => {
 
                 {/*YOUR PARTNER IN MODERN TECHNOLOGY AND AUTOMATION*/}
                 <div
-                  style={{
-                    textAlign: 'center',
-                    position: 'absolute',
-                    bottom: '75px',
-                    left: '0',
-                    right: '0',
-                    fontStyle: 'italic',
-                    fontSize: '24px',
-                    color: '#fff',
-                    textTransform: 'uppercase',
-                    letterSpacing: '1px',
-                    lineHeight: '1.3',
-                    width: '100%',
-                    display: 'flex',
-                    flexDirection: 'column',
-                    alignItems: 'center',
-                    padding: '0 20px'
-                  }}
+                  className="partner-text"
                 >
                   "YOUR PARTNER IN MODERN TECHNOLOGY AND AUTOMATION"
                 </div>
