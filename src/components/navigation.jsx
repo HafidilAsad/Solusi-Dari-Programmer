@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+// import font 
 
 export const Navigation = (props) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -43,27 +44,46 @@ export const Navigation = (props) => {
             <li><a href="#contact" className="page-scroll">Contact</a></li>
             
             {/* Dropdown Live Demo */}
-            <li className={`dropdown ${demoDropdownOpen ? "open" : ""}`}>
+          <li className="dropdown">
               <a 
                 href="#" 
-                className="dropdown-toggle" 
+                className="dropdown-toggle"
                 data-toggle="dropdown"
-                onClick={(e) => {
-                  e.preventDefault();
-                  setDemoDropdownOpen(!demoDropdownOpen);
-                }}
               >
                 Live Demo <span className="caret"></span>
               </a>
               <ul className="dropdown-menu">
                 <li>
-                  <a href="https://demo1.solusiprogrammer.com/dashboard" target="_blank" rel="noopener noreferrer">
-                    Live Demo 1
+                  <a className="fw-bold" href="https://demo1.solusiprogrammer.com/dashboard" target="_blank" rel="noopener noreferrer">
+                    BMS V1
                   </a>
                 </li>
                 <li>
                   <a href="https://demo1.solusiprogrammer.com/v2/dashboard" target="_blank" rel="noopener noreferrer">
-                    Live Demo 2
+                    BMS V2
+                  </a>
+                </li>
+                <li>
+                  <a href="https://demo1.solusiprogrammer.com/v3/dashboard" target="_blank" rel="noopener noreferrer">
+                    Smart Parking
+                  </a>
+                </li>
+                <li>
+                  <a href="https://solusiprogrammer.com" target="_blank" rel="noopener noreferrer">
+                    Energy Monitoring
+                    <i className="fa-solid fa-spinner" style={{ marginRight: "8px", color: "red", paddingLeft: "8px" }}></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://solusiprogrammer.com" target="_blank" rel="noopener noreferrer">
+                    Smart Farming
+                    <i className="fa-solid fa-spinner" style={{ marginRight: "8px", color: "red", paddingLeft: "8px" }}></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://solusiprogrammer.com" target="_blank" rel="noopener noreferrer">
+                    Industry IoT
+                    <i className="fa-solid fa-spinner" style={{ marginRight: "8px", color: "red", paddingLeft: "8px" }}></i>
                   </a>
                 </li>
               </ul>
