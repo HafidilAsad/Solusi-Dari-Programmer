@@ -23,7 +23,7 @@ export const Gallery = (props) => {
       </Helmet>
       <div className="container">
         <div className="section-title">
-          <h2>Gallery</h2>
+          <h2>Experience</h2>
           <p>
             Our Project Experience
           </p>
