@@ -37,7 +37,7 @@ const App = () => {
       
       {/* WhatsApp Button */}
       <a
-        href="https://wa.me/6285647156889" // Ganti dengan nomor WhatsApp Anda
+        href="https://wa.me/6285156521627" // Ganti dengan nomor WhatsApp Anda
         className="whatsapp-button"
         target="_blank"
         rel="noopener noreferrer"
