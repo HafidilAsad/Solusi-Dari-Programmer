@@ -4,7 +4,7 @@
     "paragraph": " Di era digital yang terus berkembang, kami hadir sebagai mitra terpercaya Anda dalam mengintegrasikan teknologi mutakhir dengan kebutuhan bisnis Anda. Dengan pengalaman lebih dari satu dekade, kami mengoptimalkan operasi produksi, mengotomatisasi proses, dan membuka peluang baru untuk pertumbuhan bersama.Bersama-sama, mari kita bentuk masa depan yang cerdas dan solutif!"
   },
   "About": {
-    "paragraph": "Di era digital yang terus berkembang, Solusi Programmer hadir sebagai mitra terpercaya dalam menyediakan solusi teknologi yang terintegrasi. Dengan pengalaman lebih dari 10 tahun, kami fokus membantu bisnis untuk mengoptimalkan operasi, meningkatkan efisiensi, dan memanfaatkan teknologi mutakhir seperti IoT, robotic industrial, paneling & wiring, hingga pengembangan web dan digitalisasi.",
+    "paragraph": "In the ever-growing digital era, Solusi Programmer is here as a trusted partner in providing integrated technology solutions. With more than 10 years of experience, we focus on helping businesses optimize operations, increase efficiency, and utilize the latest technologies such as IoT, industrial robotics, panels & wiring, to web development and digitalization.",
     "Why": [
       "Comprehensive Expertise",
       "Cutting-Edge Technology",
@@ -83,34 +83,34 @@
   ],
   "Services": [
     {
-      "icon": "fa fa-wordpress",
-      "name": "Web Development",
-      "text": "Our team builds responsive, secure, and scalable websites and web applications that deliver a seamless user experience. We design and develop custom digital platforms."
+      "icon": "img/portfolio/profile/icon1.png",
+      "name": "Industrial Automation System",
+      "text": "We provide intelligent automation solutions that optimize industrial operations, reduce human error, and increase production efficiency through advanced control systems."
     },
     {
-      "icon": "fa fa-cart-arrow-down",
-      "name": "Internet of Things (IoT) Solutions",
-      "text": " Whether it’s smart sensors, connected products, or end-to-end IoT ecosystems, we provide innovative solutions that enhance efficiency and drive real-time decision-making."
+      "icon": "img/portfolio/profile/icon2.png",
+      "name": "Industrial Panel Manufacturing",
+      "text": "We design and manufacture high-quality industrial control panels tailored to meet specific automation needs, ensuring reliability, safety, and compliance with industry standards."
     },
     {
-      "icon": "fa fa-cloud-download",
-      "name": "Robotics Engineering",
-      "text": "We offer advanced robotic solutions that automate complex tasks, improve productivity, and enhance operational efficiency. From robotic process automation (RPA) to custom robotic systems"
+      "icon": "img/portfolio/profile/icon3.png",
+      "name": "Bulding Management System",
+      "text": "Our Building Management Systems integrate HVAC, lighting, security, and energy systems into one smart platform to improve operational efficiency and occupant comfort."
     },
     {
-      "icon": "fa fa-language",
-      "name": "AI & Machine Learning",
-      "text": "Unlock the power of AI and machine learning to gain actionable insights from your data. We help businesses automate decision-making, predict trends, and optimize operations using advanced algorithms and machine learning models."
+      "icon": "img/portfolio/profile/icon4.png",
+      "name": "Server Installation And Networking",
+      "text": "We deliver reliable server setups and robust networking solutions to ensure secure, scalable, and high-performance IT infrastructures for modern business operations."
     },
     {
-      "icon": "fa fa-plane",
-      "name": "Custom Software Development",
-      "text": "We provide end-to-end custom software development services, from building enterprise applications to developing bespoke solutions. Our agile development approach ensures that the software we create is perfectly "
+      "icon": "img/portfolio/profile/icon5.png",
+      "name": "IoT And Web Application Development",
+      "text": "We build integrated IoT and web-based solutions that enable real-time monitoring, remote control, and data-driven decision-making to enhance operational visibility and connectivity. "
     },
     {
-      "icon": "fa fa-pie-chart",
-      "name": "Automation Solutions",	
-      "text": "From robotic process automation (RPA) to AI-powered automation, we streamline your workflows and reduce operational costs by automating repetitive tasks and optimizing business processes."
+      "icon": "img/portfolio/profile/icon6.png",
+      "name": "Cyber Physical System Management",	
+      "text": "We deliver secure and adaptive cyber-physical system management that bridges physical processes with digital intelligence, ensuring synchronized operations, resilience, and smart automation."
     }
   ],
   "Testimonials": [
@@ -160,7 +160,7 @@
   ],
   "Contact": {
     "address": "Pondok Ungu Permai, B21, No.12, Desa/Kelurahan Kaliabang Tengah,Kec. Bekasi Utara, Kota Bekasi, Provinsi Jawa Barat,",
-    "phone": "+62 857 2040 2625",
+    "phone": "+62 851 5652 1627",
     "email": "solusidariprogrammer@gmail.com",
     "facebook": "fb.com",
     "twitter": "twitter.com",

@@ -28,18 +28,30 @@ export const Services = (props) => {
           </p>
         </div>
         <div className="row">
-          {props.data
-            ? props.data.map((d, i) => (
-                <div key={`${d.name}-${i}`} className="col-md-4">
-                  {" "}
-                  <i className={d.icon}></i>
-                  <div className="service-desc">
-                    <h3>{d.name}</h3>
-                    <p>{d.text}</p>
-                  </div>
+          {props.data ? (
+            props.data.map((d, i) => (
+              <div key={`${d.name}-${i}`} className="col-md-4 text-center mb-4">
+                <img
+                  src={d.icon}
+                  alt={d.name}
+                  className="img-fluid mb-3"
+                  style={{
+                      maxHeight: "100px",
+                      objectFit: "contain",
+                      border: "2px solid #ccc", 
+                      borderRadius: "8px",      
+                      padding: "4px"            
+                    }}
+                  />
+                <div className="service-desc">
+                  <h3>{d.name}</h3>
+                  <p>{d.text}</p>
                 </div>
-              ))
-            : "loading"}
+              </div>
+            ))
+          ) : (
+            "Loading..."
+          )}
         </div>
       </div>
     </div>
