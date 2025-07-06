@@ -71,7 +71,6 @@ export const Navigation = (props) => {
                 <li>
                   <a href="https://demo1.solusiprogrammer.com/v4/dashboard" target="_blank" rel="noopener noreferrer">
                     Energy Monitoring
-                    <i className="fa-solid fa-spinner" style={{ marginRight: "8px", color: "red", paddingLeft: "8px" }}></i>
                   </a>
                 </li>
                 <li>
