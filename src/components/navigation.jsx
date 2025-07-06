@@ -69,7 +69,7 @@ export const Navigation = (props) => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://solusiprogrammer.com" target="_blank" rel="noopener noreferrer">
+                  <a href="https://demo1.solusiprogrammer.com/v4/dashboard" target="_blank" rel="noopener noreferrer">
                     Energy Monitoring
                     <i className="fa-solid fa-spinner" style={{ marginRight: "8px", color: "red", paddingLeft: "8px" }}></i>
                   </a>
