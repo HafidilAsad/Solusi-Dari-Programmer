@@ -47,8 +47,8 @@ export const Navigation = (props) => {
           <li className="dropdown">
               <a 
                 href="#" 
-                className="dropdown-toggle"
-                data-toggle="dropdown"
+                className="dropdown-toggle blink" style={{fontWeight: "bold"}}
+                data-toggle="dropdown" 
               >
                 Live Demo <span className="caret"></span>
               </a>
