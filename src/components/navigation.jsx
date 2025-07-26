@@ -74,9 +74,8 @@ export const Navigation = (props) => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://solusiprogrammer.com" target="_blank" rel="noopener noreferrer">
+                  <a href="https://demo1.solusiprogrammer.com/v5/dashboard" target="_blank" rel="noopener noreferrer">
                     Smart Farming
-                    <i className="fa-solid fa-spinner" style={{ marginRight: "8px", color: "red", paddingLeft: "8px" }}></i>
                   </a>
                 </li>
                 <li>
