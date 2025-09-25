@@ -1,16 +1,19 @@
+import { Image } from "./image";
 import React, { useState } from "react";
 import { Helmet } from "react-helmet";
 
 export const Gallery = (props) => {
+  // State untuk mengontrol modal
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [selectedItem, setSelectedItem] = useState(null);
 
-  
+  // Fungsi untuk membuka modal
   const openModal = (item) => {
     setSelectedItem(item);
     setIsModalOpen(true);
   };
 
+  // Fungsi untuk menutup modal
   const closeModal = () => {
     setIsModalOpen(false);
     setSelectedItem(null);
@@ -68,6 +71,7 @@ export const Gallery = (props) => {
         </div>
       </div>
 
+      {/* Modal untuk menampilkan card yang diperbesar */}
       {isModalOpen && selectedItem && (
         <div 
           className="modal-overlay"
@@ -98,6 +102,7 @@ export const Gallery = (props) => {
               boxShadow: '0 4px 20px rgba(0, 0, 0, 0.3)'
             }}
           >
+            {/* Tombol Close */}
             <button
               onClick={closeModal}
               style={{
@@ -107,6 +112,7 @@ export const Gallery = (props) => {
                 background: 'rgba(255, 0, 0, 1)',
                 color: 'white',
                 border: 'none',
+                borderRadius: '20%',
                 width: '30px',
                 height: '30px',
                 fontSize: '18px',
@@ -120,6 +126,7 @@ export const Gallery = (props) => {
               ×
             </button>
             
+            {/* Konten Card yang Diperbesar */}
             <div className="enlarged-card">
               <img
                 src={selectedItem.largeImage || selectedItem.smallImage}
@@ -142,7 +149,7 @@ export const Gallery = (props) => {
                 }}>
                   {selectedItem.description}
                 </p>
-
+                {/* Tambahan informasi jika tersedia */}
                 {selectedItem.details && (
                   <div style={{ marginTop: '15px' }}>
                     <h5 style={{ color: '#333' }}>Detail:</h5>
