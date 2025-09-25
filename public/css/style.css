@@ -346,7 +346,7 @@ header .intro-text {
 /* About Section */
 #about {
   padding: 100px 0;
-  background-color: #666666;
+  background-color: #3C467B;
 }
 
 #about h3 {
@@ -589,7 +589,7 @@ header .intro-text {
 /* Contact Section */
 #contact {
   padding: 100px 0 60px;
-  background-color: #666666;
+  background-color: #3C467B;
   color: rgba(255, 255, 255, 0.75);
 }
 
@@ -709,7 +709,7 @@ label {
 }
 
 #contact .social {
-  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  border-top: 1px solid rgba(247, 0, 0, 0.15);
   padding-top: 50px;
   margin-top: 50px;
   text-align: center;
