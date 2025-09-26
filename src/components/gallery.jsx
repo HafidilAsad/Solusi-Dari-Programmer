@@ -1,19 +1,17 @@
-import { Image } from "./image";
 import React, { useState } from "react";
 import { Helmet } from "react-helmet";
 
 export const Gallery = (props) => {
-  // State untuk mengontrol modal
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [selectedItem, setSelectedItem] = useState(null);
 
-  // Fungsi untuk membuka modal
+
   const openModal = (item) => {
     setSelectedItem(item);
     setIsModalOpen(true);
   };
 
-  // Fungsi untuk menutup modal
+
   const closeModal = () => {
     setIsModalOpen(false);
     setSelectedItem(null);

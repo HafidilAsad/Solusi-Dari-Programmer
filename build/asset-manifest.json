@@ -1,5 +1,6 @@
 {
   "files": {
+<<<<<<< Updated upstream
     "main.css": "/static/css/main.ffb530ad.css",
     "main.js": "/static/js/main.91c941f6.js",
     "index.html": "/index.html",
@@ -9,5 +10,16 @@
   "entrypoints": [
     "static/css/main.ffb530ad.css",
     "static/js/main.91c941f6.js"
+=======
+    "main.css": "/static/css/main.510f00d1.css",
+    "main.js": "/static/js/main.3f87a2ca.js",
+    "index.html": "/index.html",
+    "main.510f00d1.css.map": "/static/css/main.510f00d1.css.map",
+    "main.3f87a2ca.js.map": "/static/js/main.3f87a2ca.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.510f00d1.css",
+    "static/js/main.3f87a2ca.js"
+>>>>>>> Stashed changes
   ]
 }
