@@ -94,8 +94,8 @@ export const Gallery = (props) => {
               backgroundColor: 'white',
               borderRadius: '10px',
               overflow: 'hidden',
-              maxWidth: '80%',
-              maxHeight: '80%',
+              maxWidth: '100%',
+              maxHeight: '100%',
               position: 'relative',
               boxShadow: '0 4px 20px rgba(0, 0, 0, 0.3)'
             }}
@@ -139,27 +139,6 @@ export const Gallery = (props) => {
                 <h3 style={{ marginBottom: '15px', color: '#333' }}>
                   {selectedItem.title}
                 </h3>
-                <p style={{ 
-                  fontSize: '16px', 
-                  lineHeight: '1.6', 
-                  color: '#666',
-                  textAlign: 'left' 
-                }}>
-                  {selectedItem.description}
-                </p>
-                {/* Tambahan informasi jika tersedia */}
-                {selectedItem.details && (
-                  <div style={{ marginTop: '15px' }}>
-                    <h5 style={{ color: '#333' }}>Detail:</h5>
-                    <p style={{ 
-                      fontSize: '14px', 
-                      color: '#777',
-                      textAlign: 'left' 
-                    }}>
-                      {selectedItem.details}
-                    </p>
-                  </div>
-                )}
               </div>
             </div>
           </div>
