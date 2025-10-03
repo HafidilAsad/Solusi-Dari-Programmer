@@ -59,8 +59,8 @@ export const Gallery = (props) => {
                       className="card-img-top"
                     />
                     <div className="card-body">
-                      <h5 className="card-title">{item.title}</h5>
-                      <p className="card-text">{item.description}</p>
+                    <h5 className="card-title" style={{ color: "black" }}>{item.title}</h5>
+                      {/* <p className="card-text">{item.description}</p> */}
                     </div>
                   </div>
                 </div>
